@@ -34,7 +34,7 @@ module.exports = {
     },
     output: {
         // filename: 'bundel.js', // выходной файл
-        filename: '[name].[contenthash].js',
+        filename: '[name].[hash].js',
         path: path.resolve(__dirname, 'dist') // путь до выходного файла
     },
     // Дополнительные параметры для расширений файлов по-умолчанию и создания alias'ов
